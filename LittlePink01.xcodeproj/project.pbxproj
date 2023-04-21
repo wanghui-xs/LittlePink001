@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B12896E29EE7E95004C8F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12896D29EE7E95004C8F1D /* AppDelegate.swift */; };
+		8B12897029EE7E95004C8F1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12896F29EE7E95004C8F1D /* SceneDelegate.swift */; };
+		8B12897229EE7E95004C8F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B12897129EE7E95004C8F1D /* ViewController.swift */; };
+		8B12897529EE7E95004C8F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B12897329EE7E95004C8F1D /* Main.storyboard */; };
+		8B12897829EE7E95004C8F1D /* LittlePink01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B12897629EE7E95004C8F1D /* LittlePink01.xcdatamodeld */; };
+		8B12897A29EE7E97004C8F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B12897929EE7E97004C8F1D /* Assets.xcassets */; };
+		8B12897D29EE7E97004C8F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B12897B29EE7E97004C8F1D /* LaunchScreen.storyboard */; };
+		987D102C17F44BBEABB95AC7 /* Pods_LittlePink01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1659B1BD7837892F62C00AF1 /* Pods_LittlePink01.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1659B1BD7837892F62C00AF1 /* Pods_LittlePink01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePink01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B12896A29EE7E95004C8F1D /* LittlePink01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B12896D29EE7E95004C8F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B12896F29EE7E95004C8F1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8B12897129EE7E95004C8F1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B12897429EE7E95004C8F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B12897729EE7E95004C8F1D /* LittlePink01.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink01.xcdatamodel; sourceTree = "<group>"; };
+		8B12897929EE7E97004C8F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B12897C29EE7E97004C8F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B12897E29EE7E97004C8F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		939367D23869EBD2585D8752 /* Pods-LittlePink01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink01.release.xcconfig"; path = "Target Support Files/Pods-LittlePink01/Pods-LittlePink01.release.xcconfig"; sourceTree = "<group>"; };
+		E1DFAC495D54587456FB0238 /* Pods-LittlePink01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink01.debug.xcconfig"; path = "Target Support Files/Pods-LittlePink01/Pods-LittlePink01.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B12896729EE7E95004C8F1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987D102C17F44BBEABB95AC7 /* Pods_LittlePink01.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15206272743F0CFB047BBB79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1DFAC495D54587456FB0238 /* Pods-LittlePink01.debug.xcconfig */,
+				939367D23869EBD2585D8752 /* Pods-LittlePink01.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		61E8DF8CB80BDB2AF12F7A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1659B1BD7837892F62C00AF1 /* Pods_LittlePink01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B12896129EE7E95004C8F1D = {
+			isa = PBXGroup;
+			children = (
+				8B12896C29EE7E95004C8F1D /* LittlePink01 */,
+				8B12896B29EE7E95004C8F1D /* Products */,
+				15206272743F0CFB047BBB79 /* Pods */,
+				61E8DF8CB80BDB2AF12F7A18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B12896B29EE7E95004C8F1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B12896A29EE7E95004C8F1D /* LittlePink01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B12896C29EE7E95004C8F1D /* LittlePink01 */ = {
+			isa = PBXGroup;
+			children = (
+				8B12896D29EE7E95004C8F1D /* AppDelegate.swift */,
+				8B12896F29EE7E95004C8F1D /* SceneDelegate.swift */,
+				8B12897129EE7E95004C8F1D /* ViewController.swift */,
+				8B12897329EE7E95004C8F1D /* Main.storyboard */,
+				8B12897929EE7E97004C8F1D /* Assets.xcassets */,
+				8B12897B29EE7E97004C8F1D /* LaunchScreen.storyboard */,
+				8B12897E29EE7E97004C8F1D /* Info.plist */,
+				8B12897629EE7E95004C8F1D /* LittlePink01.xcdatamodeld */,
+			);
+			path = LittlePink01;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B12896929EE7E95004C8F1D /* LittlePink01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B12898129EE7E97004C8F1D /* Build configuration list for PBXNativeTarget "LittlePink01" */;
+			buildPhases = (
+				34FCE897B52A210400788053 /* [CP] Check Pods Manifest.lock */,
+				8B12896629EE7E95004C8F1D /* Sources */,
+				8B12896729EE7E95004C8F1D /* Frameworks */,
+				8B12896829EE7E95004C8F1D /* Resources */,
+				594B559CE840E57E1E379443 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittlePink01;
+			productName = LittlePink01;
+			productReference = 8B12896A29EE7E95004C8F1D /* LittlePink01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B12896229EE7E95004C8F1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8B12896929EE7E95004C8F1D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8B12896529EE7E95004C8F1D /* Build configuration list for PBXProject "LittlePink01" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B12896129EE7E95004C8F1D;
+			productRefGroup = 8B12896B29EE7E95004C8F1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B12896929EE7E95004C8F1D /* LittlePink01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B12896829EE7E95004C8F1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B12897D29EE7E97004C8F1D /* LaunchScreen.storyboard in Resources */,
+				8B12897A29EE7E97004C8F1D /* Assets.xcassets in Resources */,
+				8B12897529EE7E95004C8F1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34FCE897B52A210400788053 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittlePink01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594B559CE840E57E1E379443 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePink01/Pods-LittlePink01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePink01/Pods-LittlePink01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittlePink01/Pods-LittlePink01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B12896629EE7E95004C8F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B12897229EE7E95004C8F1D /* ViewController.swift in Sources */,
+				8B12896E29EE7E95004C8F1D /* AppDelegate.swift in Sources */,
+				8B12897829EE7E95004C8F1D /* LittlePink01.xcdatamodeld in Sources */,
+				8B12897029EE7E95004C8F1D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B12897329EE7E95004C8F1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B12897429EE7E95004C8F1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B12897B29EE7E97004C8F1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B12897C29EE7E97004C8F1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B12897F29EE7E97004C8F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B12898029EE7E97004C8F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B12898229EE7E97004C8F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DFAC495D54587456FB0238 /* Pods-LittlePink01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SF2SN7G5G;
+				INFOPLIST_FILE = LittlePink01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanghui.LittlePink01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8B12898329EE7E97004C8F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939367D23869EBD2585D8752 /* Pods-LittlePink01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7SF2SN7G5G;
+				INFOPLIST_FILE = LittlePink01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanghui.LittlePink01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B12896529EE7E95004C8F1D /* Build configuration list for PBXProject "LittlePink01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B12897F29EE7E97004C8F1D /* Debug */,
+				8B12898029EE7E97004C8F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B12898129EE7E97004C8F1D /* Build configuration list for PBXNativeTarget "LittlePink01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B12898229EE7E97004C8F1D /* Debug */,
+				8B12898329EE7E97004C8F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B12897629EE7E95004C8F1D /* LittlePink01.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B12897729EE7E95004C8F1D /* LittlePink01.xcdatamodel */,
+			);
+			currentVersion = 8B12897729EE7E95004C8F1D /* LittlePink01.xcdatamodel */;
+			path = LittlePink01.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B12896229EE7E95004C8F1D /* Project object */;
+}
